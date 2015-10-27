@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+<<<<<<< HEAD
+/home/gavin/projects/playground/app/Song.cpp
+Song.hpp
+/home/gavin/projects/playground/app/Song.hpp
+string
+-
+
+/home/gavin/projects/playground/app/Song.hpp
+string
+-
+
+/home/gavin/projects/playground/app/main.cpp
+iostream
+-
+string
+-
+Song.hpp
+/home/gavin/projects/playground/app/Song.hpp
+=======
+/home/gavin/projects/playground/app/main.cpp
+iostream
+-
+>>>>>>> e22755c80a272351e8d52d390663123e2a0e3b0d
+

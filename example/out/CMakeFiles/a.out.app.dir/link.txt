@@ -1,0 +1,1 @@
+/usr/bin/clang++      CMakeFiles/a.out.app.dir/app/math.cpp.o CMakeFiles/a.out.app.dir/app/main.cpp.o CMakeFiles/a.out.app.dir/app/square.cpp.o  -o bin/a.out.app -rdynamic -lc++ -lpthread 

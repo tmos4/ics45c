@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+/usr/bin/clang++      CMakeFiles/a.out.gtest.dir/gtest/gtestmain.cpp.o CMakeFiles/a.out.gtest.dir/app/Song.cpp.o  -o bin/a.out.gtest -rdynamic -lpthread -lc++ -lgtest -lgtest_main 
+=======
+/usr/bin/clang++       CMakeFiles/a.out.gtest.dir/gtest/gtestmain.cpp.o  -o bin/a.out.gtest -rdynamic -lpthread -lc++ -lgtest -lgtest_main 
+>>>>>>> e22755c80a272351e8d52d390663123e2a0e3b0d

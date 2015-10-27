@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gavin/projects/example/app/math.cpp
+math.hpp
+/home/gavin/projects/example/app/math.hpp
+
+/home/gavin/projects/example/app/math.hpp
+square.hpp
+/home/gavin/projects/example/app/square.hpp
+
+/home/gavin/projects/example/app/square.cpp
+square.hpp
+/home/gavin/projects/example/app/square.hpp
+
+/home/gavin/projects/example/app/square.hpp
+
+/home/gavin/projects/example/gtest/gtestmain.cpp
+gtest/gtest.h
+-
+

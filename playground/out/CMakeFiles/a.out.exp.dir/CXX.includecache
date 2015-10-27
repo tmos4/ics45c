@@ -1,0 +1,23 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+<<<<<<< HEAD
+/home/gavin/projects/playground/app/Song.cpp
+Song.hpp
+/home/gavin/projects/playground/app/Song.hpp
+string
+-
+
+/home/gavin/projects/playground/app/Song.hpp
+string
+-
+
+=======
+>>>>>>> e22755c80a272351e8d52d390663123e2a0e3b0d
+/home/gavin/projects/playground/exp/expmain.cpp
+
