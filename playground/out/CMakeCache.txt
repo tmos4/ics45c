@@ -24,12 +24,9 @@ CMAKE_BUILD_TYPE:STRING=
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-<<<<<<< HEAD
-=======
 //CXX compiler.
 CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/clang++
 
->>>>>>> e22755c80a272351e8d52d390663123e2a0e3b0d
 //Flags used by the compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
 
@@ -46,12 +43,9 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 //Flags used by the compiler during release builds with debug info.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
-<<<<<<< HEAD
-=======
 //C compiler.
 CMAKE_C_COMPILER:FILEPATH=/usr/bin/clang
 
->>>>>>> e22755c80a272351e8d52d390663123e2a0e3b0d
 //Flags used by the compiler during all build types.
 CMAKE_C_FLAGS:STRING=
 
@@ -69,11 +63,7 @@ CMAKE_C_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //Flags used by the linker.
-<<<<<<< HEAD
-CMAKE_EXE_LINKER_FLAGS:STRING=
-=======
 CMAKE_EXE_LINKER_FLAGS:STRING=' '
->>>>>>> e22755c80a272351e8d52d390663123e2a0e3b0d
 
 //Flags used by the linker during debug builds.
 CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=
@@ -100,11 +90,7 @@ CMAKE_LINKER:FILEPATH=/usr/bin/ld
 CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake
 
 //Flags used by the linker during the creation of modules.
-<<<<<<< HEAD
-CMAKE_MODULE_LINKER_FLAGS:STRING=
-=======
 CMAKE_MODULE_LINKER_FLAGS:STRING=' '
->>>>>>> e22755c80a272351e8d52d390663123e2a0e3b0d
 
 //Flags used by the linker during debug builds.
 CMAKE_MODULE_LINKER_FLAGS_DEBUG:STRING=
@@ -134,11 +120,7 @@ CMAKE_PROJECT_NAME:STATIC=a.out.gtest
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
 
 //Flags used by the linker during the creation of dll's.
-<<<<<<< HEAD
-CMAKE_SHARED_LINKER_FLAGS:STRING=
-=======
 CMAKE_SHARED_LINKER_FLAGS:STRING=' '
->>>>>>> e22755c80a272351e8d52d390663123e2a0e3b0d
 
 //Flags used by the linker during debug builds.
 CMAKE_SHARED_LINKER_FLAGS_DEBUG:STRING=
@@ -216,11 +198,7 @@ CMAKE_CACHEFILE_DIR:INTERNAL=/home/gavin/projects/playground/out
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
-<<<<<<< HEAD
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=3
-=======
 CMAKE_CACHE_MINOR_VERSION:INTERNAL=0
->>>>>>> e22755c80a272351e8d52d390663123e2a0e3b0d
 //Patch version of cmake used to create the current loaded cache
 CMAKE_CACHE_PATCH_VERSION:INTERNAL=2
 //ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
@@ -231,11 +209,8 @@ CMAKE_COMMAND:INTERNAL=/usr/bin/cmake
 CMAKE_CPACK_COMMAND:INTERNAL=/usr/bin/cpack
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/usr/bin/ctest
-<<<<<<< HEAD
-=======
 //ADVANCED property for variable: CMAKE_CXX_COMPILER
 CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
->>>>>>> e22755c80a272351e8d52d390663123e2a0e3b0d
 //ADVANCED property for variable: CMAKE_CXX_FLAGS
 CMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_DEBUG
@@ -246,11 +221,8 @@ CMAKE_CXX_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_RELWITHDEBINFO
 CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-<<<<<<< HEAD
-=======
 //ADVANCED property for variable: CMAKE_C_COMPILER
 CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
->>>>>>> e22755c80a272351e8d52d390663123e2a0e3b0d
 //ADVANCED property for variable: CMAKE_C_FLAGS
 CMAKE_C_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS_DEBUG
@@ -277,23 +249,11 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS
 CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
-<<<<<<< HEAD
-//Name of external makefile project generator.
-CMAKE_EXTRA_GENERATOR:INTERNAL=
-//Name of generator.
-CMAKE_GENERATOR:INTERNAL=Unix Makefiles
-//Name of generator platform.
-CMAKE_GENERATOR_PLATFORM:INTERNAL=
-//Name of generator toolset.
-CMAKE_GENERATOR_TOOLSET:INTERNAL=
-//Source directory with the top level CMakeLists.txt file for this
-=======
 //Name of generator.
 CMAKE_GENERATOR:INTERNAL=Unix Makefiles
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Start directory with the top level CMakeLists.txt file for this
->>>>>>> e22755c80a272351e8d52d390663123e2a0e3b0d
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/home/gavin/projects/playground
 //Install .so files without execute permission.

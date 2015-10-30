@@ -1,0 +1,1 @@
+/usr/bin/clang++       CMakeFiles/a.out.gtest.dir/gtest/gtestmain.cpp.o CMakeFiles/a.out.gtest.dir/app/cutpointSets.cpp.o CMakeFiles/a.out.gtest.dir/app/students.cpp.o CMakeFiles/a.out.gtest.dir/app/gradedArtifacts.cpp.o CMakeFiles/a.out.gtest.dir/app/scores.cpp.o  -o bin/a.out.gtest -rdynamic -lpthread -lc++ -lgtest -lgtest_main 

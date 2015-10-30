@@ -38,14 +38,7 @@ else()
   set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 endif()
 
-<<<<<<< HEAD
-string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
-       "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/gavin/projects/playground/out/${CMAKE_INSTALL_MANIFEST}"
-     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
-=======
 file(WRITE "/home/gavin/projects/playground/out/${CMAKE_INSTALL_MANIFEST}" "")
 foreach(file ${CMAKE_INSTALL_MANIFEST_FILES})
   file(APPEND "/home/gavin/projects/playground/out/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 endforeach()
->>>>>>> e22755c80a272351e8d52d390663123e2a0e3b0d

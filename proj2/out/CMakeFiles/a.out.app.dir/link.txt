@@ -1,0 +1,1 @@
+/usr/bin/clang++       CMakeFiles/a.out.app.dir/app/cutpointSets.cpp.o CMakeFiles/a.out.app.dir/app/students.cpp.o CMakeFiles/a.out.app.dir/app/main.cpp.o CMakeFiles/a.out.app.dir/app/gradedArtifacts.cpp.o CMakeFiles/a.out.app.dir/app/scores.cpp.o  -o bin/a.out.app -rdynamic -lc++ -lpthread 

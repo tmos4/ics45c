@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gavin/projects/proj2/app/gradedArtifacts.hpp
+
+/home/gavin/projects/proj2/app/scores.cpp
+iostream
+-
+students.hpp
+/home/gavin/projects/proj2/app/students.hpp
+gradedArtifacts.hpp
+/home/gavin/projects/proj2/app/gradedArtifacts.hpp
+
+/home/gavin/projects/proj2/app/students.hpp
+
